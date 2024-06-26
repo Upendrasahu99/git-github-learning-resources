@@ -1,0 +1,12 @@
+
+staging area
+
+1) after git add it will go to satging area.
+2) git put all the changed we picked using git add which will go to git commit
+
+=======================================================
+
+working area 
+
+1) changes here will not go the next verison(commit)
+2) we don't add file and folder 

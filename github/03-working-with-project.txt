@@ -1,0 +1,1 @@
+1) If projec it already build then cloan it chang some code and push into branches.

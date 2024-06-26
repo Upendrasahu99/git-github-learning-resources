@@ -1,0 +1,108 @@
+git remote add <remote_name> <url>
+
+1) we can give any name to our remote repository but convention is give "origin"
+2) above commnand links a local to Github repository(located at the url) and gives it a name "orgin/other name"
+=======================================================================
+
+git remote
+
+1) Give list of all remote repositores that are linked
+
+========================================================================
+
+git remote -v 
+
+1) List of all remote repositories with more detail
+2) V = verbose(give more details)
+
+========================================================================
+
+git remote remove <remote_name>
+
+1) Removes a link to a remote repository
+
+======================================================
+git config --global credential.username <git userName>
+
+1) Configure our github username so we can get access of our github repository 
+2) In window it will open github login page but in mac we can enter password from comand linked
+
+=======================================================================
+
+git push <remote_name> <branchName>
+
+1) we cannot push all our commit history we can just push only one branch commit history.
+2) push local changes into remote repository
+=======================================================================
+
+git branch 
+1) show a list of available branches
+
+======================================================================================================================
+
+git log --all --graph 
+
+1) shows the branches visually in the history
+2) It will show remote branch name also, which called remotee tracking branch
+
+
+======================================================================================================================
+git pus <remote_name> <branch> --set-upstream
+
+1) Sets up a shortcut for this branch and rmote repository 
+2) Example: git push origin main --set-upstream =  Next time if we are on the main branch and run "git push" it will automatically push the main branch to origin
+
+
+=========================================================================
+
+
+
+========================================================================
+
+git push <remote_name> <branch> -f 
+
+1) forch-push the branch to the remote repostiotr(it will overwrite what's on the remote repository)
+
+
+====================================================================================================
+git commit --amend -m "commit-message"
+
+1) override previous commit.
+
+========================================================================
+
+git push origin master -f
+
+1) force push 
+
+=======================================================
+
+git clone url <folderName(optional)>
+
+1) clone application in our local system
+2) Folder Name is optional if we want don't give it it will make a repository name folderName
+
+=========================================================
+git fetch
+
+1) update all remote tracking branches(like origin/master) and update in local because git not update automatically what updated into remote
+
+
+========================================================================
+
+git pull <remote_name> <branch>
+
+1)update the local barnch with any updates from the remote repository(on Github)
+2) git pull origin main --set -upstream
+
+========================================================================
+
+
+
+========================================================================
+IMP
+
+1) Upload to Github = push
+2) download from github = pull
+3) git push only commit if we not commited it will not add into remote
+

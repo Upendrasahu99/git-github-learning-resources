@@ -1,0 +1,2 @@
+1) .gitignore is the file where we can add file which we don't want to add in our git or version controll
+2) ignore file will not track by git

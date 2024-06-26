@@ -1,0 +1,85 @@
+git init:
+
+1) Git will start tracking all changes in the current folder
+
+======================================================================================================================
+git status:
+
+1) Show all changes since he previous commit. 
+
+===========================================================
+git add 
+
+1) not allow to create new version it let as what we can add to new version.
+2) git add <file/folder> : add particular file and folder.
+3) git add . : add all the file and folder.
+
+
+=========================================================
+git commit -m "message"
+
+1)Version in git know as commit and version history it know as commit history.
+2)It show how many file and how many line of code updated.
+3)With commit message we can attached our name and email also show it show how change make that version
+
+=========================================================
+
+git commit -m "message"
+1) Update previous commit insted of creating new one
+=============================================================
+1)git config --global user.name "Name"
+2)git config --global user.email "example@gmail.com"
+
+
+============================================================
+git log
+
+1)show version history
+2) "HEAD" indicate which version we currently viewing.
+
+============================================================
+git log -all
+
+1) show all commit(not just current branch)
+
+===========================================================
+git log --all --graph
+
+1) showing branhcin visually in the command line
+2) git don't show unamed branch 
+
+===================================================================
+
+git rest <file/folder/.>
+
+1) remove form staging area and put it into working area
+
+===============================================================
+
+git checkout -- <file/folder/.> 
+
+1) remove the changes from working area or remove all the changes
+
+
+
+================================================================
+
+git checkout <commit_hash/branch_name>
+
+1) view or change to previous commit.
+2) to go back to particular commit we have to do git log and take "commit hash" (basicly id of this commit/version)
+3) after checkout it show current commit and behind current commit but not any commit infront of it.
+4) we can change using branch name it will take to latest commit of particular branch
+
+
+============================================================================
+
+git chekcout <commit_hash/branch_name> <file/folder/.>
+
+1) restore particular commit code in current commit Not created new branch 
+
+=====================================================================
+alias
+
+1) git config --global alias.shortccut <command>
+2) Wxample: git config --global alias.s "status" , git s = git status

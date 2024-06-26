@@ -1,0 +1,2 @@
+1.) git is mainly work on command line
+2.) 

@@ -1,0 +1,2 @@
+1.) Git is a version history for code.
+2.) It allow to store past version of every file of our code, or we can restore all of our code back to past version.

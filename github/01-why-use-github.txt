@@ -1,0 +1,3 @@
+1. If we store data on local machine may we can lose all our data.
+2. git repository = folder that is being tracked by git.
+3.

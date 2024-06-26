@@ -1,0 +1,7 @@
+1)Most of the code edition provide the tool where we can see the changed and previous code
+2) we can see the changes what we make
+3) It is sam as "git status" 
+
+==============================================
+
+1) we can directaly add what changes we done directly using code editor no need ot give git add command
